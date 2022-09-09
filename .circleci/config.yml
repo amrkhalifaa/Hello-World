@@ -37,7 +37,7 @@ workflows:
     my_workflow:
         
         jobs:
-            -Ciommander_Job
+            - Ciommander_Job
             - save_hello_world_output
             - print_output_file:
                 requires:
