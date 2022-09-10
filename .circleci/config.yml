@@ -39,7 +39,6 @@ jobs:
             - run: cat ~/output.txt
 workflows:
     my_workflow:
-        
         jobs:
             - Ciommander_Job
             - save_hello_world_output
